@@ -59,6 +59,13 @@ class DynamicFormAdapter() : RecyclerView.Adapter<DynamicFormAdapter.ViewHolder>
                             notifyItemInserted(position+1)
                         }
 
+                    }else{
+                        dataList[position].answer = ""
+
+                        if (position==dataList.size-2){
+                            dataList.remove(dataList[position+1])
+                            notifyItemRemoved(position+1)
+                        }
                     }
                 }
 
