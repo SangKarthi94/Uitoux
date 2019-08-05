@@ -7,13 +7,13 @@
 
     <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
               android:id="@+id/question_txt"
-              android:text="Mobile Number"
+              android:text="Question"
               android:textStyle="bold"
               android:textColor="#263238"/>
 
     <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
               android:id="@+id/answer_txt"
-              android:text="Mobile Number"
+              android:text=""
               android:layout_marginLeft="5dp"
               android:textSize="14sp"/>
 
